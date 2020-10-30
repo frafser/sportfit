@@ -13,6 +13,9 @@ header{
     .logo{
         font-size: 30px;
         font-weight: 300;
+        img{
+            width: 50px;
+        }
         span{
             font-size: 28px;
             font-weight: 700;
@@ -60,7 +63,7 @@ header{
 }
 // =============================  End Header =============================  
 #banner{
-    background: url(../image/banner/index.jpg);
+    background: url(../image/banner/banner1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -284,8 +287,9 @@ header{
 //======================================= End About =======================================
 #testimonials{
     position: relative;
-    background: url(../image/banner/testimonials.jpg);
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/banner/banner2.jpg);
+    background-position-x: center;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     padding-bottom: 100px;
@@ -389,6 +393,9 @@ header{
         color: #262626;
         line-height: 1.1;
         margin-top: 3px;
+        span{
+            font-weight: 600;
+        }
     }
     .row{
         margin-top: 87px;
@@ -413,7 +420,7 @@ header{
 }
 // ======================================End Course======================================
 #blog{
-    background: url(../image/banner/blog.jpg);
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../image/banner/banner-blog.jpg);
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -444,6 +451,9 @@ header{
         color: #FFFFFF;
         line-height: 1.1;
         margin-top: 3px;
+        span{
+            font-weight: 600;
+        }
     }
     .View-link{
         font-size: 14px;
@@ -452,6 +462,9 @@ header{
     }
     .row{
         margin-top: 86px;
+        .img-fluid{
+            height: 234px !important;
+        }
         .text-area{
             margin-top: 20px;
             .title{
@@ -507,8 +520,7 @@ footer{
                 text-decoration: none;
                 .logo-area{
                     img{
-                        width: 38px;
-                        height: 38px;
+                        width: 50px;
                         margin-right: 4px;                    
                     }
                     .logo{
